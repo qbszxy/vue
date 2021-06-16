@@ -1,2 +1,6 @@
 5种组件传值方式，例子全部都是嵌套三层以上。
 没有vuex的传值方式，原因是vuex对于非全局的数据共享、组件传值来说过于大材小用，并且也不是vuex官方推荐的做法。
+
+例子分为两个项目，store和others，代码拷贝后，运行npm install、npm run serve后打开浏览器即可看到效果。
+store项目是store模式，目前我用的比较多，所有单独创建一个项目。
+other项目是另外四种方式：props、eventBus、attrsListeners、provideInject。
